@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whicklian Nerio | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Whicklian Nerio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Whicklian Nerio</h1>
+            <p>Front-End Developer | HTML, CSS & JavaScript</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section scroll-reveal">
+        <h2>About Me</h2>
+        <p>Hello! I'm Whicklian Nerio, a passionate web developer focused on creating modern, responsive websites using HTML, CSS, and JavaScript. I enjoy bringing ideas to life with clean, user-friendly designs.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section scroll-reveal">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" onclick="openModal()">
+                <img src="logo.jpg" alt="Tazamall Project">
+                <h3>Tazamall</h3>
+                <p>A responsive e-commerce platform built with HTML, CSS, and JavaScript.</p>
+                <a href="https://tazamall-whicklian.vercel.app/">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Tazamall</h2>
+            <img src="logo.jpg" alt="Tazamall" class="modal-img">
+            <p>Tazamall is an interactive e-commerce platform designed to enhance the online shopping experience. Built using HTML, CSS, and JavaScript, featuring responsive design and dynamic product interaction.</p>
+            <a href="https://tazamall-whicklian.vercel.app/"
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section scroll-reveal">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Design</li>
+            <li>Flexbox & Grid</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section scroll-reveal">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:neriowhicklian@gmail.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/whicklian-nerio</a></p>
+        <p>GitHub: <a href="#">github.com/whicklian</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Whicklian Nerio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
